@@ -8,3 +8,5 @@
     DSP: 71
 3. Pipelining the width loop:
     throughput: 41104179200/311007698 = 132.1645074
+4. Unroll (16) and pipeline width loop:
+5. Changing the HLS array partition of the input into 5 elements for the innermost dimension

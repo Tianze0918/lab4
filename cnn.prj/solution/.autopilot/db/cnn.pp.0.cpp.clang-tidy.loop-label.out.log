@@ -233,57 +233,57 @@
         ^~~
         VITIS_LOOP_329_4: 
 /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27034:9: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27038:2: warning: Added loop label VITIS_LOOP_333_5:   [xilinx-label-all-loops]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27039:2: warning: Added loop label VITIS_LOOP_334_5:   [xilinx-label-all-loops]
  for (int w = 0; w < 224; w++) {
  ^~~
- VITIS_LOOP_333_5: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27038:2: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27040:13: warning: Added loop label VITIS_LOOP_335_6:   [xilinx-label-all-loops]
+ VITIS_LOOP_334_5: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27039:2: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27041:13: warning: Added loop label VITIS_LOOP_336_6:   [xilinx-label-all-loops]
             for (int p = 0; p < 5; p++) {
             ^~~
-            VITIS_LOOP_335_6: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27040:13: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27043:2: warning: Added loop label VITIS_LOOP_338_7:   [xilinx-label-all-loops]
+            VITIS_LOOP_336_6: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27041:13: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:2: warning: Added loop label VITIS_LOOP_339_7:   [xilinx-label-all-loops]
  for (int q = 0; q < 5; q++) {
  ^~~
- VITIS_LOOP_338_7: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27043:2: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:69: warning:  hls::vector type top function variable vinput requires aggregation [xilinx-aggregate-on-hls-vector]
+ VITIS_LOOP_339_7: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:2: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:69: warning:  hls::vector type top function variable vinput requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                     ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:69: warning:  hls::vector type top function variable vinput requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:69: warning:  hls::vector type top function variable vinput requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                     ^              ~
                                                                                     __attribute__((align_value(alignof(float4)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:84: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:84: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                    ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:93: warning:  hls::vector type top function variable vweight requires aggregation [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:93: warning:  hls::vector type top function variable vweight requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                             ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:93: warning:  hls::vector type top function variable vweight requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:93: warning:  hls::vector type top function variable vweight requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                             ^               ~
                                                                                                              __attribute__((align_value(alignof(float1)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27071:109: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:109: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                                             ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:25: warning:  hls::vector type top function variable voutput requires aggregation [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:25: warning:  hls::vector type top function variable voutput requires aggregation [xilinx-aggregate-on-hls-vector]
                 float16 voutput[802816]) {
                         ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:25: warning:  hls::vector type top function variable voutput requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:25: warning:  hls::vector type top function variable voutput requires align attribute [xilinx-aggregate-on-hls-vector]
                 float16 voutput[802816]) {
                         ^              ~
                                         __attribute__((align_value(alignof(float16)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27072:40: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27073:40: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                        ^

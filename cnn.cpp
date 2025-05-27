@@ -329,6 +329,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
         for (int h = 0; h < 16 * 14;
              h++) { // Note: 16*14 equals 224 (the height dimension)
           
+          #pragma HLS unroll factor=16
           #pragma HLS pipeline II=1
           for (int w = 0; w < 224; w++) {
             // #pragma HLS pipeline II=1
@@ -410,7 +411,7 @@ void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
  */
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 1
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 2
-#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 4 dim = 3
+#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 3
 
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 1
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 2

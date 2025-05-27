@@ -1,16 +1,16 @@
 6 warnings generated.
 Trying to resolve conflict: The new insertion has the same insert location as an existing replacement.
-New replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512616:+0:"
+New replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512645:+0:"
 #pragma HLS aggregate variable = vweight
 "
-Existing replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512616:+0:"
+Existing replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512645:+0:"
 #pragma HLS aggregate variable = vinput
 "
 Trying to resolve conflict: The new insertion has the same insert location as an existing replacement.
-New replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512616:+0:"
+New replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512645:+0:"
 #pragma HLS aggregate variable = voutput
 "
-Existing replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512616:+0:"
+Existing replacement: /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp: 1512645:+0:"
 #pragma HLS aggregate variable = vinput
 
 #pragma HLS aggregate variable = vweight

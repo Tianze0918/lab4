@@ -3,7 +3,7 @@
     "basicblocks": 1,
     "calls": "4",
     "file": "cnn.cpp",
-    "fileloc": 386,
+    "fileloc": 387,
     "instructions": 36,
     "name": "kernel_cnn",
     "total_instructions": 1097

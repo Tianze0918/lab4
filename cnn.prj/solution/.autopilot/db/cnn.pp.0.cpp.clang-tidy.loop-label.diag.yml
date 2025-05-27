@@ -425,90 +425,90 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_329_4: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_333_5:  '
-    FileOffset:      333
+    Message:         'Added loop label VITIS_LOOP_334_5:  '
+    FileOffset:      334
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512033
+        Offset:          1512062
         Length:          0
-        ReplacementText: 'VITIS_LOOP_333_5: '
+        ReplacementText: 'VITIS_LOOP_334_5: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_335_6:  '
-    FileOffset:      335
+    Message:         'Added loop label VITIS_LOOP_336_6:  '
+    FileOffset:      336
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512078
+        Offset:          1512107
         Length:          0
-        ReplacementText: 'VITIS_LOOP_335_6: '
+        ReplacementText: 'VITIS_LOOP_336_6: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_338_7:  '
-    FileOffset:      338
+    Message:         'Added loop label VITIS_LOOP_339_7:  '
+    FileOffset:      339
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512138
+        Offset:          1512167
         Length:          0
-        ReplacementText: 'VITIS_LOOP_338_7: '
+        ReplacementText: 'VITIS_LOOP_339_7: '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable vinput requires aggregation'
-    FileOffset:      386
+    FileOffset:      387
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512616
+        Offset:          1512645
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = vinput
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable vinput requires align attribute'
-    FileOffset:      386
+    FileOffset:      387
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512547
+        Offset:          1512576
         Length:          0
         ReplacementText: ' __attribute__((align_value(alignof(float4)))) '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable vweight requires aggregation'
-    FileOffset:      386
+    FileOffset:      387
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512616
+        Offset:          1512645
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = vweight
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable vweight requires align attribute'
-    FileOffset:      386
-    FilePath:        cnn.cpp
-    Replacements:    
-      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512572
-        Length:          0
-        ReplacementText: ' __attribute__((align_value(alignof(float1)))) '
-  - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    Message:         ' hls::vector type top function variable voutput requires aggregation'
     FileOffset:      387
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512616
+        Offset:          1512601
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(float1)))) '
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable voutput requires aggregation'
+    FileOffset:      388
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512645
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = voutput
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable voutput requires align attribute'
-    FileOffset:      387
+    FileOffset:      388
     FilePath:        cnn.cpp
     Replacements:    
       - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
-        Offset:          1512613
+        Offset:          1512642
         Length:          0
         ReplacementText: ' __attribute__((align_value(alignof(float16)))) '
 ...

@@ -27034,13 +27034,14 @@ void cnn(float input[1][228][228], float output[16][224][224],
         VITIS_LOOP_329_4: for (int h = 0; h < 16 * 14;
              h++) {
 
+#pragma HLS unroll factor=16
 #pragma HLS pipeline II=1
- VITIS_LOOP_333_5: for (int w = 0; w < 224; w++) {
+ VITIS_LOOP_334_5: for (int w = 0; w < 224; w++) {
 
-            VITIS_LOOP_335_6: for (int p = 0; p < 5; p++) {
+            VITIS_LOOP_336_6: for (int p = 0; p < 5; p++) {
 
 #pragma HLS unroll factor=5
- VITIS_LOOP_338_7: for (int q = 0; q < 5; q++) {
+ VITIS_LOOP_339_7: for (int q = 0; q < 5; q++) {
 
 #pragma HLS unroll factor=5
 
@@ -27067,7 +27068,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
     store_output_S0(output, voutput, i0);
   }
 }
-# 386 "cnn.cpp"
+# 387 "cnn.cpp"
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976] __attribute__((align_value(alignof(float4)))) , float1 vweight[1638400] __attribute__((align_value(alignof(float1)))) ,
                 float16 voutput[802816] __attribute__((align_value(alignof(float16)))) ) {
 #pragma HLS aggregate variable = vinput
@@ -27078,7 +27079,7 @@ __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[33269
 
 #line 23 "/home/ubuntu/lab4/vitis.tcl"
 #pragma HLSDIRECTIVE TOP name=kernel_cnn
-# 387 "cnn.cpp"
+# 388 "cnn.cpp"
 
 
 
@@ -27105,7 +27106,7 @@ __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[33269
 
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 1
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 2
-#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 4 dim = 3
+#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 3
 
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 1
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 2
