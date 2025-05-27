@@ -1,0 +1,10 @@
+
+
+1. Baseline 
+    throughput = 41104179200/7323752913 = 5.612
+    DSP: 72
+2. Unrolling innermost p and q loop with unroll factor equal to 5。
+    throughput: 41104179200/6632860114 = 6.197
+    DSP: 71
+3. Pipelining the width loop:
+    throughput: 41104179200/311007698 = 132.1645074

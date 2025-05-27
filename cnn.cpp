@@ -3,6 +3,11 @@
 #include <hls_stream.h>
 #include <hls_vector.h>
 
+// code /home/ubuntu/lab4/cnn.prj/solution/syn/report/kernel_cnn_csynth.rpt to look for report
+// 0.25 * kNum*kNum*kImSize*kImSize*kKernel*kKernel*2/latency (max cycles) for throughput: 
+// kNum=256, kImSize=224, kKernel=5
+// 0.25 * 256*256 * 224*224 * 5*5 * 2 / latency = 41104179200/latency
+
 /******************************************************************************************
 These typedefs define *fixed-size vector types* for float values using HLS
 library types. hls::vector<T, N> is a type that holds N elements of type T —
@@ -274,6 +279,12 @@ void store_output_S0(float output[16][224][224], float16 voutput[802816],
   }
 }
 
+
+
+
+
+
+
 /**
  * @brief Top-level CNN function that performs a convolution operation.
  *
@@ -314,12 +325,19 @@ void cnn(float input[1][228][228], float output[16][224][224],
        */
       load_input_S0(input, vinput, j);
 
-      for (int i1 = 0; i1 < 16; i1++) {
+      for (int i1 = 0; i1 < 16; i1++) {   // Iteratve over 16 output tiles
         for (int h = 0; h < 16 * 14;
              h++) { // Note: 16*14 equals 224 (the height dimension)
+          
+          #pragma HLS pipeline II=1
           for (int w = 0; w < 224; w++) {
+            // #pragma HLS pipeline II=1
             for (int p = 0; p < 5; p++) {
+              // #pragma HLS pipeline II=1
+              #pragma HLS unroll factor=5
               for (int q = 0; q < 5; q++) {
+                // #pragma HLS pipeline II=1
+                #pragma HLS unroll factor=5
 
                 /**
                  * Compute the effective output channel index.
@@ -344,6 +362,11 @@ void cnn(float input[1][228][228], float output[16][224][224],
     store_output_S0(output, voutput, i0);
   }
 }
+
+
+
+
+
 
 /**
  * @brief Top-level HLS kernel for CNN execution.

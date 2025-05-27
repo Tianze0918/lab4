@@ -1,0 +1,514 @@
+---
+MainSourceFile:  /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          55356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          282764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          283228
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          283693
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          567080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_1:  '
+    FileOffset:      127
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1496256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_143_1:  '
+    FileOffset:      143
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1496703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_143_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_1:  '
+    FileOffset:      169
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1497224
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_1:  '
+    FileOffset:      170
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1497541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_1:  '
+    FileOffset:      198
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1498343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1498698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_1:  '
+    FileOffset:      200
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1499053
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_201_1:  '
+    FileOffset:      201
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1499408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_201_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_202_1:  '
+    FileOffset:      202
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1499763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_202_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_203_1:  '
+    FileOffset:      203
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1500118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_203_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_204_1:  '
+    FileOffset:      204
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1500473
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_204_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1500828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_206_1:  '
+    FileOffset:      206
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1501184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_206_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_207_1:  '
+    FileOffset:      207
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1501541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1501962
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_1:  '
+    FileOffset:      223
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1502298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_224_1:  '
+    FileOffset:      224
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1502633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_224_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_225_1:  '
+    FileOffset:      225
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1502967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_226_1:  '
+    FileOffset:      226
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1503302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_226_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_1:  '
+    FileOffset:      256
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1503758
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1504181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_1:  '
+    FileOffset:      258
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1504606
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_1:  '
+    FileOffset:      259
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1505031
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_260_1:  '
+    FileOffset:      260
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1505456
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_260_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_261_1:  '
+    FileOffset:      261
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1505880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_261_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_62_1:  '
+    FileOffset:      62
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508106
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_62_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_63_2:  '
+    FileOffset:      63
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_63_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_3:  '
+    FileOffset:      64
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508190
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_2:  '
+    FileOffset:      118
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_3:  '
+    FileOffset:      119
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1508781
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_1:  '
+    FileOffset:      186
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1509899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_2:  '
+    FileOffset:      187
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1509940
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_188_3:  '
+    FileOffset:      188
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1509984
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_188_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_4:  '
+    FileOffset:      189
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1510028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1510432
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_241_2:  '
+    FileOffset:      241
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1510473
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_241_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_242_3:  '
+    FileOffset:      242
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1510517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_242_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_304_1:  '
+    FileOffset:      304
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1511698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_304_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_319_2:  '
+    FileOffset:      319
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1511830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_319_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_3:  '
+    FileOffset:      328
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1511914
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_4:  '
+    FileOffset:      329
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1511956
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_5:  '
+    FileOffset:      333
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_335_6:  '
+    FileOffset:      335
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512078
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_335_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_338_7:  '
+    FileOffset:      338
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_338_7: '
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable vinput requires aggregation'
+    FileOffset:      386
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512616
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = vinput
+'
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable vinput requires align attribute'
+    FileOffset:      386
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512547
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(float4)))) '
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable vweight requires aggregation'
+    FileOffset:      386
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512616
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = vweight
+'
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable vweight requires align attribute'
+    FileOffset:      386
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512572
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(float1)))) '
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable voutput requires aggregation'
+    FileOffset:      387
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512616
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = voutput
+'
+  - DiagnosticName:  xilinx-aggregate-on-hls-vector
+    Message:         ' hls::vector type top function variable voutput requires align attribute'
+    FileOffset:      387
+    FilePath:        cnn.cpp
+    Replacements:    
+      - FilePath:        /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp
+        Offset:          1512613
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(float16)))) '
+...
