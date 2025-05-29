@@ -913,7 +913,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
 
 
 
-          #pragma HLS pipeline II = 1
+          #pragma HLS pipeline II = 2
           #pragma HLS unroll factor = 2
 
           for (int k=0; k<unroll_factor; k++){
