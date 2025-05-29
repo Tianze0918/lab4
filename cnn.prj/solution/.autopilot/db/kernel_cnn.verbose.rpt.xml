@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_cnn'" level="0">
-<item name = "Date">Thu May 29 01:14:27 2025
+<item name = "Date">Thu May 29 05:43:38 2025
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">cnn.prj</item>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">349956562, 349956562, 1.400 sec, 1.400 sec, 349956563, 349956563, no</column>
+<column name="">256371154, 256371154, 1.025 sec, 1.025 sec, 256371155, 256371155, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_cnn_fu_1844">cnn, 349956561, 349956561, 1.400 sec, 1.400 sec, 349956561, 349956561, no</column>
+<column name="grp_cnn_fu_1908">cnn, 256371153, 256371153, 1.025 sec, 1.025 sec, 256371153, 256371153, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -50,21 +50,21 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 2, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">40, 2004, 236524, 149933, 0</column>
+<column name="Instance">40, 4004, 528879, 325684, 0</column>
 <column name="Memory">1968, -, 0, 0, 25</column>
 <column name="Multiplexer">-, -, -, 104, -</column>
 <column name="Register">-, -, 199, -, -</column>
 <specialColumn name="Available SLR">1440, 2280, 788160, 394080, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">139, 87, 30, 38, 7</specialColumn>
+<specialColumn name="Utilization SLR (%)">139, 175, 67, 82, 7</specialColumn>
 <specialColumn name="Available">4320, 6840, 2364480, 1182240, 960</specialColumn>
-<specialColumn name="Utilization (%)">46, 29, 10, 12, 2</specialColumn>
+<specialColumn name="Utilization (%)">46, 58, 22, 27, 2</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_cnn_fu_1844">cnn, 0, 2004, 230880, 144977, 0</column>
+<column name="grp_cnn_fu_1908">cnn, 0, 4004, 523235, 320728, 0</column>
 <column name="control_s_axi_U">control_s_axi, 0, 0, 246, 424, 0</column>
 <column name="kernel_input_m_axi_U">kernel_input_m_axi, 8, 0, 1181, 1117, 0</column>
 <column name="kernel_output_m_axi_U">kernel_output_m_axi, 30, 0, 3521, 2695, 0</column>
@@ -102,22 +102,38 @@
 <column name="input_22_U">input_RAM_AUTO_1R1W, 0, 0, 0, 1, 2116, 32, 1, 67712</column>
 <column name="input_23_U">input_RAM_AUTO_1R1W, 0, 0, 0, 1, 2116, 32, 1, 67712</column>
 <column name="input_24_U">input_RAM_AUTO_1R1W, 0, 0, 0, 1, 2116, 32, 1, 67712</column>
-<column name="output_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_1_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_2_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_3_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_4_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_5_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_6_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_7_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_8_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_9_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_10_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_11_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_12_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_13_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_14_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
-<column name="output_15_U">output_RAM_AUTO_1R1W, 98, 0, 0, 0, 50176, 32, 1, 1605632</column>
+<column name="output_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_1_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_2_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_3_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_4_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_5_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_6_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_7_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_8_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_9_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_10_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_11_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_12_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_13_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_14_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_15_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_16_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_17_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_18_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_19_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_20_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_21_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_22_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_23_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_24_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_25_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_26_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_27_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_28_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_29_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_30_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
+<column name="output_31_U">output_RAM_AUTO_1R1W, 49, 0, 0, 0, 25088, 32, 1, 802816</column>
 <column name="weight_U">weight_RAM_AUTO_1R1W, 1, 0, 0, 0, 256, 32, 1, 8192</column>
 <column name="weight_1_U">weight_RAM_AUTO_1R1W, 1, 0, 0, 0, 256, 32, 1, 8192</column>
 <column name="weight_2_U">weight_RAM_AUTO_1R1W, 1, 0, 0, 0, 256, 32, 1, 8192</column>
@@ -551,10 +567,10 @@
 <column name="ap_rst_n_inv">1, 0, 1, 0</column>
 <column name="ap_rst_reg_1">1, 0, 1, 0</column>
 <column name="ap_rst_reg_2">1, 0, 1, 0</column>
-<column name="grp_cnn_fu_1844_ap_start_reg">1, 0, 1, 0</column>
-<column name="vinput_read_reg_2752">64, 0, 64, 0</column>
-<column name="voutput_read_reg_2742">64, 0, 64, 0</column>
-<column name="vweight_read_reg_2747">64, 0, 64, 0</column>
+<column name="grp_cnn_fu_1908_ap_start_reg">1, 0, 1, 0</column>
+<column name="vinput_read_reg_2848">64, 0, 64, 0</column>
+<column name="voutput_read_reg_2838">64, 0, 64, 0</column>
+<column name="vweight_read_reg_2843">64, 0, 64, 0</column>
 </table>
 </item>
 </section>

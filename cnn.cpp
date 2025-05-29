@@ -865,8 +865,9 @@ void cnn(float input[1][228][228], float output[16][224][224],
          float weight[16][256][5][5], float4 vinput[3326976],
          float1 vweight[1638400], float16 voutput[802816]) {
 
-  int width = 5;
-  float window[5][5];
+  const int width = 6;
+  const int unroll_factor = 2;
+  float window[5][width];
   #pragma HLS ARRAY_PARTITION variable=window complete dim=0
   #pragma HLS ARRAY_PARTITION variable=window complete dim=1
 
@@ -899,7 +900,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
              h++) { // Note: 16*14 equals 224 (the height dimension)
 
         for (int p = 0; p < 5; p++) {
-            for (int q = 0; q < 5; q++) {
+            for (int q = 0; q < width; q++) {
               // #pragma HLS pipeline II=1
               window[p][q] = input[0][h + p][    /* w=0 */  q    ];
             }
@@ -907,20 +908,21 @@ void cnn(float input[1][228][228], float output[16][224][224],
 
 
         // #pragma HLS pipeline II = 1
-        for (int w = 0; w < 224; w++) {
-
-
-
-    
+        for (int w = 0; w < 224; w+= unroll_factor) {
 
 
 
 
           #pragma HLS pipeline II = 1
+          #pragma HLS unroll factor = 2
 
+          for (int k=0; k<unroll_factor; k++){
+
+          
           for (int i1 = 0; i1 < 16; i1++) {   // Iteratve over 16 output tiles
             #pragma HLS unroll
-          float acc = output[i1][h][w];
+          int w0 = w + k;
+          float acc = output[i1][h][w0];
             for (int p = 0; p < 5; p++) {
               for (int q = 0; q < 5; q++) {
 
@@ -929,28 +931,35 @@ void cnn(float input[1][228][228], float output[16][224][224],
                  * i0 selects the outer tile and i1 selects the sub-channel
                  * within the tile.
                  */
-                int i = i0 * 16 + i1;
                 acc +=
-                    weight[i1][j][p][q] * window[p][q]; //input[0][h + p][w + q];
+                    weight[i1][j][p][q] * window[p][q + k]; //input[0][h + p][w + q];
               }
             }
-            output[i1][h][w] = acc;
+            
+            output[i1][h][w0] = acc;
           }
+        }
 
 
 
-            if (w+5<228){
+            // if (w+width<228){
+            if (w + width + (unroll_factor - 1) < 228) {
             // 1) shift window left by one column
             for (int p = 0; p < 5;p++) {
               #pragma HLS unroll
-              for (int q = 0; q < 4; q++) {
-                window[p][q] = window[p][q+1];
+              for (int q = 0; q < width-unroll_factor; q++) {
+                window[p][q] = window[p][q+unroll_factor];
               }
             }
             // 2) read exactly one new pixel into the rightmost column
             for (int p = 0; p < 5; p++) {
-              #pragma HLS unroll
-              window[p][4] = input[0][h + p][w + 5];
+              // #pragma HLS unroll
+              // window[p][width-1] = input[0][h + p][w + width+1];
+              // window[p][width-2] = input[0][h + p][w + width];
+
+              for (int u = 0; u < unroll_factor; u++){
+                window[p][width-unroll_factor + u] = input[0][h + p][ w + width + u ];
+              }
             }
           
 
@@ -1022,7 +1031,7 @@ void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
 
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 16 dim = 1
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 2
-#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 3
+#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 2 dim = 3
 
 #pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 16 dim = 1
 #pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 2

@@ -27,12 +27,12 @@ set SynModuleInfo {
       {MODELNAME kernel_cnn_mul_8ns_15ns_22_1_1 RTLNAME kernel_cnn_mul_8ns_15ns_22_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
     }
   }
-  {SRCNAME cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5 MODELNAME cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5 RTLNAME kernel_cnn_cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5
+  {SRCNAME cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5 MODELNAME cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5 RTLNAME kernel_cnn_cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5
     SUBMODULES {
       {MODELNAME kernel_cnn_sparsemux_11_3_32_1_1 RTLNAME kernel_cnn_sparsemux_11_3_32_1_1 BINDTYPE op TYPE sparsemux IMPL auto}
     }
   }
-  {SRCNAME cnn_Pipeline_VITIS_LOOP_907_6 MODELNAME cnn_Pipeline_VITIS_LOOP_907_6 RTLNAME kernel_cnn_cnn_Pipeline_VITIS_LOOP_907_6
+  {SRCNAME cnn_Pipeline_VITIS_LOOP_911_6 MODELNAME cnn_Pipeline_VITIS_LOOP_911_6 RTLNAME kernel_cnn_cnn_Pipeline_VITIS_LOOP_911_6
     SUBMODULES {
       {MODELNAME kernel_cnn_fadd_32ns_32ns_32_7_full_dsp_1 RTLNAME kernel_cnn_fadd_32ns_32ns_32_7_full_dsp_1 BINDTYPE op TYPE fadd IMPL fulldsp LATENCY 6 ALLOW_PRAGMA 1}
       {MODELNAME kernel_cnn_fmul_32ns_32ns_32_4_max_dsp_1 RTLNAME kernel_cnn_fmul_32ns_32ns_32_4_max_dsp_1 BINDTYPE op TYPE fmul IMPL maxdsp LATENCY 3 ALLOW_PRAGMA 1}

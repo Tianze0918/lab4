@@ -837,7 +837,7 @@ begin
         input_4_4_we0 => grp_load_input_S0_Pipeline_VITIS_LOOP_627_2_VITIS_LOOP_628_3_fu_115_input_4_4_we0,
         input_4_4_d0 => grp_load_input_S0_Pipeline_VITIS_LOOP_627_2_VITIS_LOOP_628_3_fu_115_input_4_4_d0);
 
-    mul_8ns_15ns_22_1_1_U885 : component kernel_cnn_mul_8ns_15ns_22_1_1
+    mul_8ns_15ns_22_1_1_U917 : component kernel_cnn_mul_8ns_15ns_22_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,

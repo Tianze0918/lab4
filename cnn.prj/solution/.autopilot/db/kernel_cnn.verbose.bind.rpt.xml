@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_cnn'" level="0">
-<item name = "Date">Thu May 29 01:14:18 2025
+<item name = "Date">Thu May 29 05:43:19 2025
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">cnn.prj</item>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">349956562, 349956562, 1.400 sec, 1.400 sec, 349956563, 349956563, no</column>
+<column name="">256371154, 256371154, 1.025 sec, 1.025 sec, 256371155, 256371155, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_cnn_fu_1844">cnn, 349956561, 349956561, 1.400 sec, 1.400 sec, 349956561, 349956561, no</column>
+<column name="grp_cnn_fu_1908">cnn, 256371153, 256371153, 1.025 sec, 1.025 sec, 256371153, 256371153, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

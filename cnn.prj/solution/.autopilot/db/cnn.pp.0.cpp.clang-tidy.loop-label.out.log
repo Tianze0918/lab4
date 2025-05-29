@@ -213,102 +213,112 @@
       ^~~
       VITIS_LOOP_806_3: 
 /home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:26966:7: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27015:2: warning: Added loop label VITIS_LOOP_873_1:   [xilinx-label-all-loops]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27016:2: warning: Added loop label VITIS_LOOP_874_1:   [xilinx-label-all-loops]
  for (int i0 = 0; i0 < 16; i0++) {
  ^~~
- VITIS_LOOP_873_1: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27015:2: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27030:5: warning: Added loop label VITIS_LOOP_888_2:   [xilinx-label-all-loops]
+ VITIS_LOOP_874_1: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27016:2: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27031:5: warning: Added loop label VITIS_LOOP_889_2:   [xilinx-label-all-loops]
     for (int j = 0; j < 256; j++) {
     ^~~
-    VITIS_LOOP_888_2: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27030:5: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27040:9: warning: Added loop label VITIS_LOOP_898_3:   [xilinx-label-all-loops]
+    VITIS_LOOP_889_2: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27031:5: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27041:9: warning: Added loop label VITIS_LOOP_899_3:   [xilinx-label-all-loops]
         for (int h = 0; h < 16 * 14;
         ^~~
-        VITIS_LOOP_898_3: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27040:9: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27043:9: warning: Added loop label VITIS_LOOP_901_4:   [xilinx-label-all-loops]
+        VITIS_LOOP_899_3: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27041:9: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:9: warning: Added loop label VITIS_LOOP_902_4:   [xilinx-label-all-loops]
         for (int p = 0; p < 5; p++) {
         ^~~
-        VITIS_LOOP_901_4: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27043:9: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:13: warning: Added loop label VITIS_LOOP_902_5:   [xilinx-label-all-loops]
+        VITIS_LOOP_902_4: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:9: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27045:13: warning: Added loop label VITIS_LOOP_903_5:   [xilinx-label-all-loops]
             for (int q = 0; q < width; q++) {
             ^~~
-            VITIS_LOOP_902_5: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27044:13: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27052:9: warning: Added loop label VITIS_LOOP_910_6:   [xilinx-label-all-loops]
-        for (int w = 0; w < 224; w++) {
+            VITIS_LOOP_903_5: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27045:13: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27053:9: warning: Added loop label VITIS_LOOP_911_6:   [xilinx-label-all-loops]
+        for (int w = 0; w < 224; w+= unroll_factor) {
         ^~~
-        VITIS_LOOP_910_6: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27052:9: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27063:2: warning: Added loop label VITIS_LOOP_921_7:   [xilinx-label-all-loops]
- for (int i1 = 0; i1 < 16; i1++) {
+        VITIS_LOOP_911_6: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27053:9: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27061:2: warning: Added loop label VITIS_LOOP_919_7:   [xilinx-label-all-loops]
+ for (int k=0; k<unroll_factor; k++){
  ^~~
- VITIS_LOOP_921_7: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27063:2: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27066:13: warning: Added loop label VITIS_LOOP_924_8:   [xilinx-label-all-loops]
+ VITIS_LOOP_919_7: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27061:2: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27064:11: warning: Added loop label VITIS_LOOP_922_8:   [xilinx-label-all-loops]
+          for (int i1 = 0; i1 < 16; i1++) {
+          ^~~
+          VITIS_LOOP_922_8: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27064:11: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27068:13: warning: Added loop label VITIS_LOOP_926_9:   [xilinx-label-all-loops]
             for (int p = 0; p < 5; p++) {
             ^~~
-            VITIS_LOOP_924_8: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27066:13: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27067:15: warning: Added loop label VITIS_LOOP_925_9:   [xilinx-label-all-loops]
+            VITIS_LOOP_926_9: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27068:13: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27069:15: warning: Added loop label VITIS_LOOP_927_10:   [xilinx-label-all-loops]
               for (int q = 0; q < 5; q++) {
               ^~~
-              VITIS_LOOP_925_9: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27067:15: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27086:13: warning: Added loop label VITIS_LOOP_944_10:   [xilinx-label-all-loops]
+              VITIS_LOOP_927_10: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27069:15: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27090:13: warning: Added loop label VITIS_LOOP_948_11:   [xilinx-label-all-loops]
             for (int p = 0; p < 5;p++) {
             ^~~
-            VITIS_LOOP_944_10: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27086:13: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27088:2: warning: Added loop label VITIS_LOOP_946_11:   [xilinx-label-all-loops]
- for (int q = 0; q < 4; q++) {
+            VITIS_LOOP_948_11: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27090:13: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27092:2: warning: Added loop label VITIS_LOOP_950_12:   [xilinx-label-all-loops]
+ for (int q = 0; q < width-unroll_factor; q++) {
  ^~~
- VITIS_LOOP_946_11: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27088:2: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27093:13: warning: Added loop label VITIS_LOOP_951_12:   [xilinx-label-all-loops]
+ VITIS_LOOP_950_12: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27092:2: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27097:13: warning: Added loop label VITIS_LOOP_955_13:   [xilinx-label-all-loops]
             for (int p = 0; p < 5; p++) {
             ^~~
-            VITIS_LOOP_951_12: 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27093:13: note: FIX-IT applied suggested code changes
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:69: warning:  hls::vector type top function variable vinput requires aggregation [xilinx-aggregate-on-hls-vector]
+            VITIS_LOOP_955_13: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27097:13: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27102:15: warning: Added loop label VITIS_LOOP_960_14:   [xilinx-label-all-loops]
+              for (int u = 0; u < unroll_factor; u++){
+              ^~~
+              VITIS_LOOP_960_14: 
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27102:15: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:69: warning:  hls::vector type top function variable vinput requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                     ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:69: warning:  hls::vector type top function variable vinput requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:69: warning:  hls::vector type top function variable vinput requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                     ^              ~
                                                                                     __attribute__((align_value(alignof(float4)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:84: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:84: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                    ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:93: warning:  hls::vector type top function variable vweight requires aggregation [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:93: warning:  hls::vector type top function variable vweight requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                             ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:93: warning:  hls::vector type top function variable vweight requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:93: warning:  hls::vector type top function variable vweight requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                             ^               ~
                                                                                                              __attribute__((align_value(alignof(float1)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27116:109: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27125:109: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976], float1 vweight[1638400],
                                                                                                             ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:25: warning:  hls::vector type top function variable voutput requires aggregation [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:25: warning:  hls::vector type top function variable voutput requires aggregation [xilinx-aggregate-on-hls-vector]
                 float16 voutput[802816]) {
                         ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:43: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:43: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                           ^
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:25: warning:  hls::vector type top function variable voutput requires align attribute [xilinx-aggregate-on-hls-vector]
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:25: warning:  hls::vector type top function variable voutput requires align attribute [xilinx-aggregate-on-hls-vector]
                 float16 voutput[802816]) {
                         ^              ~
                                         __attribute__((align_value(alignof(float16)))) 
-/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27117:40: note: FIX-IT applied suggested code changes
+/home/ubuntu/lab4/cnn.prj/solution/.autopilot/db/cnn.pp.0.cpp:27126:40: note: FIX-IT applied suggested code changes
                 float16 voutput[802816]) {
                                        ^

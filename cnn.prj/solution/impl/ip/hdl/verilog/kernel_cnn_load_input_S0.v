@@ -813,7 +813,7 @@ kernel_cnn_mul_8ns_15ns_22_1_1 #(
     .din0_WIDTH( 8 ),
     .din1_WIDTH( 15 ),
     .dout_WIDTH( 22 ))
-mul_8ns_15ns_22_1_1_U885(
+mul_8ns_15ns_22_1_1_U917(
     .din0(mul9_fu_176_p0),
     .din1(mul9_fu_176_p1),
     .dout(mul9_fu_176_p2)

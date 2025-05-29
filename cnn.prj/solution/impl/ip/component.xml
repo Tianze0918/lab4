@@ -1969,7 +1969,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>b846f77a</spirit:value>
+            <spirit:value>56b2bda4</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1988,7 +1988,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>110e5828</spirit:value>
+            <spirit:value>da6a0f8b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2007,7 +2007,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>a723267c</spirit:value>
+            <spirit:value>c56ba3c2</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2026,7 +2026,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2e09055b</spirit:value>
+            <spirit:value>db3666c8</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -5086,11 +5086,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5.v</spirit:name>
+        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_907_6.v</spirit:name>
+        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_911_6.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -5236,12 +5236,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5.v</spirit:name>
+        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_907_6.v</spirit:name>
+        <spirit:name>hdl/verilog/kernel_cnn_cnn_Pipeline_VITIS_LOOP_911_6.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -5439,11 +5439,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_907_6.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_911_6.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -5561,7 +5561,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/kernel_cnn.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_51c417cc</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_29ec53df</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -5582,12 +5582,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_900_4_VITIS_LOOP_901_5.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_902_4_VITIS_LOOP_903_5.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_907_6.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/kernel_cnn_cnn_Pipeline_VITIS_LOOP_911_6.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -6179,7 +6179,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="41">349956562</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="41">256371154</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -6196,8 +6196,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Kernel_cnn</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114103794</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2025-05-29T01:14:55Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114104063</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2025-05-29T05:44:13Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -6208,10 +6208,10 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="aae9912a"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="48d1da9e"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="a56c528c"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="63d4fb16"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="5bbc86ed"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="bf86d394"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="b78ac4a0"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="812f1835"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="e39495d2"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

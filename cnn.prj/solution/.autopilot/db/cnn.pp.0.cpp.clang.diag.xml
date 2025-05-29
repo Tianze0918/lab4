@@ -553,7 +553,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>870</integer>
+      <integer>871</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -569,7 +569,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>871</integer>
+      <integer>872</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -585,7 +585,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>919</integer>
+      <integer>916</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -601,7 +601,23 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>922</integer>
+      <integer>917</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=factor = 2_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>cnn.cpp</string>
+      <key>line</key>
+      <integer>923</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -617,7 +633,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>945</integer>
+      <integer>949</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -633,51 +649,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>952</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>error</string>
-      <key>filename</key>
-      <string>cnn.cpp</string>
-      <key>line</key>
-      <integer>870</integer>
-      <key>column</key>
-      <integer>38</integer>
-      <key>message</key>
-      <string>Variable length array is not supported</string>
-      <key>ID</key>
-      <integer>5519</integer>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>error</string>
-      <key>filename</key>
-      <string>cnn.cpp</string>
-      <key>line</key>
-      <integer>871</integer>
-      <key>column</key>
-      <integer>38</integer>
-      <key>message</key>
-      <string>Variable length array is not supported</string>
-      <key>ID</key>
-      <integer>5519</integer>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>cnn.cpp</string>
-      <key>line</key>
-      <integer>996</integer>
+      <integer>1005</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -693,7 +665,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>998</integer>
+      <integer>1007</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -709,7 +681,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1000</integer>
+      <integer>1009</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -741,7 +713,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1001</integer>
+      <integer>1010</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -757,7 +729,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1002</integer>
+      <integer>1011</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -773,7 +745,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1003</integer>
+      <integer>1012</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -789,7 +761,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1019</integer>
+      <integer>1028</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -805,7 +777,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1020</integer>
+      <integer>1029</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -821,7 +793,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1021</integer>
+      <integer>1030</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -837,7 +809,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1023</integer>
+      <integer>1032</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -853,7 +825,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1024</integer>
+      <integer>1033</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -869,11 +841,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1025</integer>
+      <integer>1034</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 3_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 2 dim = 3_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -885,7 +857,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1027</integer>
+      <integer>1036</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -901,7 +873,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1028</integer>
+      <integer>1037</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -917,7 +889,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1029</integer>
+      <integer>1038</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -933,7 +905,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>1030</integer>
+      <integer>1039</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'load_input_S0'" level="0">
-<item name = "Date">Thu May 29 01:14:20 2025
+<item name = "Date">Thu May 29 05:43:21 2025
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">cnn.prj</item>
@@ -65,7 +65,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="grp_load_input_S0_Pipeline_VITIS_LOOP_627_2_VITIS_LOOP_628_3_fu_115">load_input_S0_Pipeline_VITIS_LOOP_627_2_VITIS_LOOP_628_3, 0, 0, 752, 2227, 0</column>
-<column name="mul_8ns_15ns_22_1_1_U885">mul_8ns_15ns_22_1_1, 0, 1, 0, 2, 0</column>
+<column name="mul_8ns_15ns_22_1_1_U917">mul_8ns_15ns_22_1_1, 0, 1, 0, 2, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">

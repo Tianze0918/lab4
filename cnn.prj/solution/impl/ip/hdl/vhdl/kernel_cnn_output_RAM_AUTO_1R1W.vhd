@@ -12,8 +12,8 @@ entity kernel_cnn_output_RAM_AUTO_1R1W is
     generic(
         MEM_TYPE        : string    := "auto"; 
         DataWidth       : integer   := 32; 
-        AddressWidth    : integer   := 16;
-        AddressRange    : integer   := 50176
+        AddressWidth    : integer   := 15;
+        AddressRange    : integer   := 25088
     ); 
     port (
         address0    : in std_logic_vector(AddressWidth-1 downto 0); 

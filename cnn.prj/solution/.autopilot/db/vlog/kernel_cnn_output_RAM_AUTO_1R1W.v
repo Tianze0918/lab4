@@ -17,8 +17,8 @@ module kernel_cnn_output_RAM_AUTO_1R1W (
     reset, clk);
 
 parameter DataWidth = 32;
-parameter AddressWidth = 16;
-parameter AddressRange = 50176;
+parameter AddressWidth = 15;
+parameter AddressRange = 25088;
  
 input[AddressWidth-1:0] address0;
 input ce0;

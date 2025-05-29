@@ -101,79 +101,73 @@ cnn.cpp:796:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ Pragm
 cnn.cpp:812:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=store_output_S0_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS pipeline II = 1
         ^
-cnn.cpp:870:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:871:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable=window complete dim=0
         ^
-cnn.cpp:871:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:872:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable=window complete dim=1
         ^
-cnn.cpp:919:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:916:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS pipeline II = 1
         ^
-cnn.cpp:922:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:917:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=factor = 2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll factor = 2
+        ^
+cnn.cpp:923:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS unroll
         ^
-cnn.cpp:945:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:949:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS unroll
         ^
-cnn.cpp:952:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS unroll
-        ^
-cnn.cpp:870:38: error: Variable length array is not supported
-#pragma HLS ARRAY_PARTITION variable=window complete dim=0
-                                     ^
-cnn.cpp:871:38: error: Variable length array is not supported
-#pragma HLS ARRAY_PARTITION variable=window complete dim=1
-                                     ^
-cnn.cpp:996:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = vinput_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1005:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = vinput_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = vinput
         ^
-cnn.cpp:998:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = vweight_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1007:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = vweight_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = vweight
         ^
-cnn.cpp:1000:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = voutput_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1009:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = voutput_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = voutput
         ^
 /home/ubuntu/lab4/vitis.tcl:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=name=kernel_cnn_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=kernel_cnn
         ^
-cnn.cpp:1001:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = vinput offset = slave bundle = kernel_input_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1010:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = vinput offset = slave bundle = kernel_input_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE m_axi port = vinput offset = slave bundle = kernel_input
         ^
-cnn.cpp:1002:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = voutput offset = slave bundle = kernel_output_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1011:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = voutput offset = slave bundle = kernel_output_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE m_axi port = voutput offset = slave bundle = kernel_output
         ^
-cnn.cpp:1003:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = vweight offset = slave bundle = kernel_weight_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1012:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=m_axi port = vweight offset = slave bundle = kernel_weight_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE m_axi port = vweight offset = slave bundle = kernel_weight
         ^
-cnn.cpp:1019:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 1 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1028:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 1 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 1
         ^
-cnn.cpp:1020:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 5 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1029:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 5 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 2
         ^
-cnn.cpp:1021:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 5 dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1030:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 5 dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 3
         ^
-cnn.cpp:1023:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 16 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1032:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 16 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 16 dim = 1
         ^
-cnn.cpp:1024:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1033:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 2
         ^
-cnn.cpp:1025:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 3
+cnn.cpp:1034:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 2 dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 2 dim = 3
         ^
-cnn.cpp:1027:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 16 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1036:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 16 dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 16 dim = 1
         ^
-cnn.cpp:1028:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 1 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1037:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 1 dim = 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 2
         ^
-cnn.cpp:1029:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1038:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 3_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = weight complete dim = 3
         ^
-cnn.cpp:1030:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 4_XLX_SEP_ [-Wdump-hls-pragmas]
+cnn.cpp:1039:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 4_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = weight complete dim = 4
         ^
-57 warnings and 2 errors generated.
+57 warnings generated.
