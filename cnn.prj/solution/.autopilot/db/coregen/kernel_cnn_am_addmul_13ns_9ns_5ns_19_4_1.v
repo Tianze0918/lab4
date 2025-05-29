@@ -7,7 +7,7 @@
 // ==============================================================
 `timescale 1 ns / 1 ps
 
-module kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1(
+module kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0(
     input clk,
     input rst,
     input ce,
@@ -71,7 +71,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1 kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1_U(
+kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0 kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0_U(
     .clk( clk ),
     .rst( reset ),
     .ce( ce ),

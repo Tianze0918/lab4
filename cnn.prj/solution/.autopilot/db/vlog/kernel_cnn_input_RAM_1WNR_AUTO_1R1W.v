@@ -57,28 +57,12 @@ module kernel_cnn_input_RAM_1WNR_AUTO_1R1W (
     address12, ce12,
     
     q12, 
-     
-    address13, ce13,
-    
-    q13, 
-     
-    address14, ce14,
-    
-    q14, 
-     
-    address15, ce15,
-    
-    q15, 
-     
-    address16, ce16,
-    
-    q16, 
     
     reset, clk);
 
 parameter DataWidth = 32;
-parameter AddressWidth = 14;
-parameter AddressRange = 12996;
+parameter AddressWidth = 12;
+parameter AddressRange = 2116;
 
 input[AddressWidth-1:0] address0;
 input ce0;
@@ -146,26 +130,6 @@ input ce12;
 
 output reg[DataWidth-1:0] q12; 
 
-input[AddressWidth-1:0] address13;
-input ce13;
-
-output reg[DataWidth-1:0] q13; 
-
-input[AddressWidth-1:0] address14;
-input ce14;
-
-output reg[DataWidth-1:0] q14; 
-
-input[AddressWidth-1:0] address15;
-input ce15;
-
-output reg[DataWidth-1:0] q15; 
-
-input[AddressWidth-1:0] address16;
-input ce16;
-
-output reg[DataWidth-1:0] q16; 
-
 input reset;
 input clk;
 
@@ -193,14 +157,6 @@ input clk;
 (* ram_style = "auto"  *)reg [DataWidth-1:0] ram10[0:AddressRange-1];
 
 (* ram_style = "auto"  *)reg [DataWidth-1:0] ram11[0:AddressRange-1];
-
-(* ram_style = "auto"  *)reg [DataWidth-1:0] ram12[0:AddressRange-1];
-
-(* ram_style = "auto"  *)reg [DataWidth-1:0] ram13[0:AddressRange-1];
-
-(* ram_style = "auto"  *)reg [DataWidth-1:0] ram14[0:AddressRange-1];
-
-(* ram_style = "auto"  *)reg [DataWidth-1:0] ram15[0:AddressRange-1];
 
 
  
@@ -304,38 +260,6 @@ begin
 
     end
 end
-always @(posedge clk)  
-begin 
-    if (ce0) begin
-        if (we0) 
-            ram12[address0] <= d0; 
-
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce0) begin
-        if (we0) 
-            ram13[address0] <= d0; 
-
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce0) begin
-        if (we0) 
-            ram14[address0] <= d0; 
-
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce0) begin
-        if (we0) 
-            ram15[address0] <= d0; 
-
-    end
-end
 
 always @(posedge clk)  
 begin 
@@ -407,30 +331,6 @@ always @(posedge clk)
 begin 
     if (ce12) begin
         q12 <= ram11[address12];
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce13) begin
-        q13 <= ram12[address13];
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce14) begin
-        q14 <= ram13[address14];
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce15) begin
-        q15 <= ram14[address15];
-    end
-end
-always @(posedge clk)  
-begin 
-    if (ce16) begin
-        q16 <= ram15[address16];
     end
 end
 

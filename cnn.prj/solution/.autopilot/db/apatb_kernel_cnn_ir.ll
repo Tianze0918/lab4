@@ -37,7 +37,7 @@ declare noalias i8* @malloc(i64) local_unnamed_addr
 define internal fastcc void @copy_in([3326976 x %"class.hls::vector<float, 4>"]* noalias readonly align 16, [3326976 x i128]* noalias, [1638400 x %"class.hls::vector<float, 1>"]* noalias readonly, [1638400 x i32]* noalias, [802816 x %"class.hls::vector<float, 16>"]* noalias readonly align 64, [802816 x i512]* noalias) unnamed_addr #1 {
 entry:
   call fastcc void @"onebyonecpy_hls.p0a3326976class.hls::vector<float, 4>"([3326976 x i128]* %1, [3326976 x %"class.hls::vector<float, 4>"]* align 16 %0)
-  call fastcc void @"onebyonecpy_hls.p0a1638400class.hls::vector<float, 1>.35"([1638400 x i32]* %3, [1638400 x %"class.hls::vector<float, 1>"]* %2)
+  call fastcc void @"onebyonecpy_hls.p0a1638400class.hls::vector<float, 1>.37"([1638400 x i32]* %3, [1638400 x %"class.hls::vector<float, 1>"]* %2)
   call fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>"([802816 x i512]* %5, [802816 x %"class.hls::vector<float, 16>"]* align 64 %4)
   ret void
 }
@@ -306,16 +306,16 @@ ret:                                              ; preds = %copy.split, %entry
 ; Function Attrs: argmemonly noinline norecurse willreturn
 define internal fastcc void @copy_out([3326976 x %"class.hls::vector<float, 4>"]* noalias align 16, [3326976 x i128]* noalias readonly, [1638400 x %"class.hls::vector<float, 1>"]* noalias, [1638400 x i32]* noalias readonly, [802816 x %"class.hls::vector<float, 16>"]* noalias align 64, [802816 x i512]* noalias readonly) unnamed_addr #4 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0a3326976class.hls::vector<float, 4>.21"([3326976 x %"class.hls::vector<float, 4>"]* align 16 %0, [3326976 x i128]* %1)
+  call fastcc void @"onebyonecpy_hls.p0a3326976class.hls::vector<float, 4>.23"([3326976 x %"class.hls::vector<float, 4>"]* align 16 %0, [3326976 x i128]* %1)
   call fastcc void @"onebyonecpy_hls.p0a1638400class.hls::vector<float, 1>"([1638400 x %"class.hls::vector<float, 1>"]* %2, [1638400 x i32]* %3)
-  call fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.56"([802816 x %"class.hls::vector<float, 16>"]* align 64 %4, [802816 x i512]* %5)
+  call fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.58"([802816 x %"class.hls::vector<float, 16>"]* align 64 %4, [802816 x i512]* %5)
   ret void
 }
 
 declare void @free(i8*) local_unnamed_addr
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @"onebyonecpy_hls.p0a3326976class.hls::vector<float, 4>.21"([3326976 x %"class.hls::vector<float, 4>"]* noalias align 16 %dst, [3326976 x i128]* noalias readonly %src) unnamed_addr #2 {
+define internal fastcc void @"onebyonecpy_hls.p0a3326976class.hls::vector<float, 4>.23"([3326976 x %"class.hls::vector<float, 4>"]* noalias align 16 %dst, [3326976 x i128]* noalias readonly %src) unnamed_addr #2 {
 entry:
   %0 = icmp eq [3326976 x %"class.hls::vector<float, 4>"]* %dst, null
   %1 = icmp eq [3326976 x i128]* %src, null
@@ -323,7 +323,7 @@ entry:
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @"arraycpy_hls.p0a3326976class.hls::vector<float, 4>.24"([3326976 x %"class.hls::vector<float, 4>"]* nonnull %dst, [3326976 x i128]* nonnull %src, i64 3326976)
+  call void @"arraycpy_hls.p0a3326976class.hls::vector<float, 4>.26"([3326976 x %"class.hls::vector<float, 4>"]* nonnull %dst, [3326976 x i128]* nonnull %src, i64 3326976)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -331,7 +331,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @"arraycpy_hls.p0a3326976class.hls::vector<float, 4>.24"([3326976 x %"class.hls::vector<float, 4>"]* %dst, [3326976 x i128]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define void @"arraycpy_hls.p0a3326976class.hls::vector<float, 4>.26"([3326976 x %"class.hls::vector<float, 4>"]* %dst, [3326976 x i128]* readonly %src, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq [3326976 x i128]* %src, null
   %1 = icmp eq [3326976 x %"class.hls::vector<float, 4>"]* %dst, null
@@ -349,7 +349,7 @@ for.loop:                                         ; preds = %for.loop, %for.loop
   %for.loop.idx6 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
   %3 = getelementptr [3326976 x i128], [3326976 x i128]* %src, i64 0, i64 %for.loop.idx6
   %dst.addr.0.04 = getelementptr [3326976 x %"class.hls::vector<float, 4>"], [3326976 x %"class.hls::vector<float, 4>"]* %dst, i64 0, i64 %for.loop.idx6, i32 0, i32 0
-  call void @arraycpy_hls.p0a4f32.27([4 x float]* %dst.addr.0.04, i128* %3, i64 0, i64 4)
+  call void @arraycpy_hls.p0a4f32.29([4 x float]* %dst.addr.0.04, i128* %3, i64 0, i64 4)
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx6, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -362,7 +362,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a4f32.27([4 x float]* %dst, i128* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #3 {
+define void @arraycpy_hls.p0a4f32.29([4 x float]* %dst, i128* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq i128* %src, null
   %1 = icmp eq [4 x float]* %dst, null
@@ -411,7 +411,7 @@ define internal i32 @_llvm.fpga.pack.none.i32.f32(float %A) #5 {
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @"onebyonecpy_hls.p0a1638400class.hls::vector<float, 1>.35"([1638400 x i32]* noalias %dst, [1638400 x %"class.hls::vector<float, 1>"]* noalias readonly %src) unnamed_addr #2 {
+define internal fastcc void @"onebyonecpy_hls.p0a1638400class.hls::vector<float, 1>.37"([1638400 x i32]* noalias %dst, [1638400 x %"class.hls::vector<float, 1>"]* noalias readonly %src) unnamed_addr #2 {
 entry:
   %0 = icmp eq [1638400 x i32]* %dst, null
   %1 = icmp eq [1638400 x %"class.hls::vector<float, 1>"]* %src, null
@@ -419,7 +419,7 @@ entry:
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @"arraycpy_hls.p0a1638400class.hls::vector<float, 1>.38"([1638400 x i32]* nonnull %dst, [1638400 x %"class.hls::vector<float, 1>"]* nonnull %src, i64 1638400)
+  call void @"arraycpy_hls.p0a1638400class.hls::vector<float, 1>.40"([1638400 x i32]* nonnull %dst, [1638400 x %"class.hls::vector<float, 1>"]* nonnull %src, i64 1638400)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -427,7 +427,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @"arraycpy_hls.p0a1638400class.hls::vector<float, 1>.38"([1638400 x i32]* %dst, [1638400 x %"class.hls::vector<float, 1>"]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define void @"arraycpy_hls.p0a1638400class.hls::vector<float, 1>.40"([1638400 x i32]* %dst, [1638400 x %"class.hls::vector<float, 1>"]* readonly %src, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq [1638400 x %"class.hls::vector<float, 1>"]* %src, null
   %1 = icmp eq [1638400 x i32]* %dst, null
@@ -445,7 +445,7 @@ for.loop:                                         ; preds = %for.loop, %for.loop
   %for.loop.idx6 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
   %src.addr.0.03 = getelementptr [1638400 x %"class.hls::vector<float, 1>"], [1638400 x %"class.hls::vector<float, 1>"]* %src, i64 0, i64 %for.loop.idx6, i32 0, i32 0
   %3 = getelementptr [1638400 x i32], [1638400 x i32]* %dst, i64 0, i64 %for.loop.idx6
-  call void @arraycpy_hls.p0a1f32.41(i32* %3, i64 0, [1 x float]* %src.addr.0.03, i64 1)
+  call void @arraycpy_hls.p0a1f32.43(i32* %3, i64 0, [1 x float]* %src.addr.0.03, i64 1)
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx6, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -458,7 +458,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a1f32.41(i32* %dst, i64 %dst_idx, [1 x float]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define void @arraycpy_hls.p0a1f32.43(i32* %dst, i64 %dst_idx, [1 x float]* readonly %src, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq [1 x float]* %src, null
   %1 = icmp eq i32* %dst, null
@@ -499,7 +499,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.56"([802816 x %"class.hls::vector<float, 16>"]* noalias align 64 %dst, [802816 x i512]* noalias readonly %src) unnamed_addr #2 {
+define internal fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.58"([802816 x %"class.hls::vector<float, 16>"]* noalias align 64 %dst, [802816 x i512]* noalias readonly %src) unnamed_addr #2 {
 entry:
   %0 = icmp eq [802816 x %"class.hls::vector<float, 16>"]* %dst, null
   %1 = icmp eq [802816 x i512]* %src, null
@@ -507,7 +507,7 @@ entry:
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @"arraycpy_hls.p0a802816class.hls::vector<float, 16>.59"([802816 x %"class.hls::vector<float, 16>"]* nonnull %dst, [802816 x i512]* nonnull %src, i64 802816)
+  call void @"arraycpy_hls.p0a802816class.hls::vector<float, 16>.61"([802816 x %"class.hls::vector<float, 16>"]* nonnull %dst, [802816 x i512]* nonnull %src, i64 802816)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -515,7 +515,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @"arraycpy_hls.p0a802816class.hls::vector<float, 16>.59"([802816 x %"class.hls::vector<float, 16>"]* %dst, [802816 x i512]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define void @"arraycpy_hls.p0a802816class.hls::vector<float, 16>.61"([802816 x %"class.hls::vector<float, 16>"]* %dst, [802816 x i512]* readonly %src, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq [802816 x i512]* %src, null
   %1 = icmp eq [802816 x %"class.hls::vector<float, 16>"]* %dst, null
@@ -533,7 +533,7 @@ for.loop:                                         ; preds = %for.loop, %for.loop
   %for.loop.idx6 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
   %3 = getelementptr [802816 x i512], [802816 x i512]* %src, i64 0, i64 %for.loop.idx6
   %dst.addr.0.04 = getelementptr [802816 x %"class.hls::vector<float, 16>"], [802816 x %"class.hls::vector<float, 16>"]* %dst, i64 0, i64 %for.loop.idx6, i32 0, i32 0
-  call void @arraycpy_hls.p0a16f32.62([16 x float]* %dst.addr.0.04, i512* %3, i64 0, i64 16)
+  call void @arraycpy_hls.p0a16f32.64([16 x float]* %dst.addr.0.04, i512* %3, i64 0, i64 16)
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx6, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -546,7 +546,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a16f32.62([16 x float]* %dst, i512* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #3 {
+define void @arraycpy_hls.p0a16f32.64([16 x float]* %dst, i512* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #3 {
 entry:
   %0 = icmp eq i512* %src, null
   %1 = icmp eq [16 x float]* %dst, null
@@ -587,7 +587,7 @@ declare void @apatb_kernel_cnn_hw([3326976 x i128]*, [1638400 x i32]*, [802816 x
 ; Function Attrs: argmemonly noinline norecurse willreturn
 define internal fastcc void @copy_back([3326976 x %"class.hls::vector<float, 4>"]* noalias align 16, [3326976 x i128]* noalias readonly, [1638400 x %"class.hls::vector<float, 1>"]* noalias, [1638400 x i32]* noalias readonly, [802816 x %"class.hls::vector<float, 16>"]* noalias align 64, [802816 x i512]* noalias readonly) unnamed_addr #4 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.56"([802816 x %"class.hls::vector<float, 16>"]* align 64 %4, [802816 x i512]* %5)
+  call fastcc void @"onebyonecpy_hls.p0a802816class.hls::vector<float, 16>.58"([802816 x %"class.hls::vector<float, 16>"]* align 64 %4, [802816 x i512]* %5)
   ret void
 }
 

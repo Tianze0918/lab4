@@ -156,6 +156,7 @@ extern "C" {
 }
 # 2 "<built-in>" 2
 # 1 "cnn.cpp" 2
+# 565 "cnn.cpp"
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_int.h" 1
 # 10 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_int.h"
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_common.h" 1
@@ -5716,7 +5717,7 @@ inline __attribute__((nodebug)) bool operator!=(
 }
 # 366 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_fixed.h" 2
 # 361 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_int.h" 2
-# 2 "cnn.cpp" 2
+# 566 "cnn.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstring" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstring" 3
 
@@ -6237,7 +6238,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   using ::strstr;
 # 121 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstring" 3
 }
-# 3 "cnn.cpp" 2
+# 567 "cnn.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_stream.h" 1
 # 12 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_stream.h"
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_stream_39.h" 1
@@ -6367,7 +6368,7 @@ class stream : public stream<__STREAM_T__, 0> {
 };
 }
 # 13 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_stream.h" 2
-# 4 "cnn.cpp" 2
+# 568 "cnn.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/hls_vector.h" 1
 
 
@@ -26805,8 +26806,8 @@ public:
 };
 
 }
-# 5 "cnn.cpp" 2
-# 23 "cnn.cpp"
+# 569 "cnn.cpp" 2
+# 587 "cnn.cpp"
 typedef hls::vector<float, 16>
     float16;
 typedef hls::vector<float, 8>
@@ -26817,7 +26818,7 @@ typedef hls::vector<float, 2>
     float2;
 typedef hls::vector<float, 1>
     float1;
-# 48 "cnn.cpp"
+# 612 "cnn.cpp"
 void load_input_S0(float input[1][228][228], float4 vinput[3326976], int d0) {
 
 
@@ -26832,9 +26833,9 @@ void load_input_S0(float input[1][228][228], float4 vinput[3326976], int d0) {
 
 
 
- VITIS_LOOP_62_1: for (int i0 = 0; i0 < 1; i0 += 1) {
-    VITIS_LOOP_63_2: for (int i1 = 0; i1 < 228; i1 += 1) {
-      VITIS_LOOP_64_3: for (int i2 = 0; i2 < 228; i2 += 4) {
+ VITIS_LOOP_626_1: for (int i0 = 0; i0 < 1; i0 += 1) {
+    VITIS_LOOP_627_2: for (int i1 = 0; i1 < 228; i1 += 1) {
+      VITIS_LOOP_628_3: for (int i2 = 0; i2 < 228; i2 += 4) {
 
 
 
@@ -26860,7 +26861,7 @@ void load_input_S0(float input[1][228][228], float4 vinput[3326976], int d0) {
     }
   }
 }
-# 106 "cnn.cpp"
+# 670 "cnn.cpp"
 void load_output_S0(float output[16][224][224], float16 voutput[802816],
                     int d0) {
 
@@ -26872,9 +26873,9 @@ void load_output_S0(float output[16][224][224], float16 voutput[802816],
 
 
 
- VITIS_LOOP_117_1: for (int i0 = 0; i0 < 16; i0 += 1) {
-    VITIS_LOOP_118_2: for (int i1 = 0; i1 < 224; i1 += 1) {
-      VITIS_LOOP_119_3: for (int i2 = 0; i2 < 224; i2 += 16) {
+ VITIS_LOOP_681_1: for (int i0 = 0; i0 < 16; i0 += 1) {
+    VITIS_LOOP_682_2: for (int i1 = 0; i1 < 224; i1 += 1) {
+      VITIS_LOOP_683_3: for (int i2 = 0; i2 < 224; i2 += 16) {
 
 
 
@@ -26913,16 +26914,16 @@ void load_output_S0(float output[16][224][224], float16 voutput[802816],
     }
   }
 }
-# 173 "cnn.cpp"
+# 737 "cnn.cpp"
 void load_weight_S0(float weight[16][256][5][5], float1 vweight[1638400],
                     int d0) {
 
 #pragma HLS inline off
-# 186 "cnn.cpp"
- VITIS_LOOP_186_1: for (int i0 = 0; i0 < 16; i0 += 1) {
-    VITIS_LOOP_187_2: for (int i1 = 0; i1 < 256; i1 += 1) {
-      VITIS_LOOP_188_3: for (int i2 = 0; i2 < 5; i2 += 1) {
-        VITIS_LOOP_189_4: for (int i3 = 0; i3 < 5; i3 += 1) {
+# 750 "cnn.cpp"
+ VITIS_LOOP_750_1: for (int i0 = 0; i0 < 16; i0 += 1) {
+    VITIS_LOOP_751_2: for (int i1 = 0; i1 < 256; i1 += 1) {
+      VITIS_LOOP_752_3: for (int i2 = 0; i2 < 5; i2 += 1) {
+        VITIS_LOOP_753_4: for (int i3 = 0; i3 < 5; i3 += 1) {
 
 
 
@@ -26948,7 +26949,7 @@ void load_weight_S0(float weight[16][256][5][5], float1 vweight[1638400],
     }
   }
 }
-# 229 "cnn.cpp"
+# 793 "cnn.cpp"
 void store_output_S0(float output[16][224][224], float16 voutput[802816],
                      int d0) {
 
@@ -26960,9 +26961,9 @@ void store_output_S0(float output[16][224][224], float16 voutput[802816],
 
 
 
- VITIS_LOOP_240_1: for (int i0 = 0; i0 < 16; i0 += 1) {
-    VITIS_LOOP_241_2: for (int i1 = 0; i1 < 224; i1 += 1) {
-      VITIS_LOOP_242_3: for (int i2 = 0; i2 < 224; i2 += 16) {
+ VITIS_LOOP_804_1: for (int i0 = 0; i0 < 16; i0 += 1) {
+    VITIS_LOOP_805_2: for (int i1 = 0; i1 < 224; i1 += 1) {
+      VITIS_LOOP_806_3: for (int i2 = 0; i2 < 224; i2 += 16) {
 
 
 
@@ -27001,12 +27002,17 @@ void store_output_S0(float output[16][224][224], float16 voutput[802816],
     }
   }
 }
-# 300 "cnn.cpp"
+# 864 "cnn.cpp"
 void cnn(float input[1][228][228], float output[16][224][224],
          float weight[16][256][5][5], float4 vinput[3326976],
          float1 vweight[1638400], float16 voutput[802816]) {
 
-  VITIS_LOOP_304_1: for (int i0 = 0; i0 < 16; i0++) {
+  int width = 5;
+  float window[5][width];
+#pragma HLS ARRAY_PARTITION variable=window complete dim=0
+#pragma HLS ARRAY_PARTITION variable=window complete dim=1
+
+ VITIS_LOOP_873_1: for (int i0 = 0; i0 < 16; i0++) {
 
 
 
@@ -27021,7 +27027,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
 
 
     load_output_S0(output, voutput, i0);
-    VITIS_LOOP_319_2: for (int j = 0; j < 256; j++) {
+    VITIS_LOOP_888_2: for (int j = 0; j < 256; j++) {
 
 
 
@@ -27030,31 +27036,69 @@ void cnn(float input[1][228][228], float output[16][224][224],
 
       load_input_S0(input, vinput, j);
 
-      VITIS_LOOP_328_3: for (int i1 = 0; i1 < 16; i1++) {
-        VITIS_LOOP_329_4: for (int h = 0; h < 16 * 14;
+
+        VITIS_LOOP_898_3: for (int h = 0; h < 16 * 14;
              h++) {
 
-#pragma HLS unroll factor=16
-#pragma HLS pipeline II=1
- VITIS_LOOP_334_5: for (int w = 0; w < 224; w++) {
+        VITIS_LOOP_901_4: for (int p = 0; p < 5; p++) {
+            VITIS_LOOP_902_5: for (int q = 0; q < width; q++) {
 
-            VITIS_LOOP_336_6: for (int p = 0; p < 5; p++) {
-
-#pragma HLS unroll factor=5
- VITIS_LOOP_339_7: for (int q = 0; q < 5; q++) {
-
-#pragma HLS unroll factor=5
+              window[p][q] = input[0][h + p][ q ];
+            }
+        }
 
 
+
+        VITIS_LOOP_910_6: for (int w = 0; w < 224; w++) {
 
 
 
 
- int i = i0 * 16 + i1;
-                output[i1][h][w] +=
-                    weight[i1][j][p][q] * input[0][h + p][w + q];
+
+
+
+
+#pragma HLS pipeline II = 1
+
+ VITIS_LOOP_921_7: for (int i1 = 0; i1 < 16; i1++) {
+#pragma HLS unroll
+ float acc = output[i1][h][w];
+            VITIS_LOOP_924_8: for (int p = 0; p < 5; p++) {
+              VITIS_LOOP_925_9: for (int q = 0; q < 5; q++) {
+
+
+
+
+
+
+                int i = i0 * 16 + i1;
+                acc +=
+                    weight[i1][j][p][q] * window[p][q];
               }
             }
+            output[i1][h][w] = acc;
+          }
+
+
+
+            if (w+5<228){
+
+            VITIS_LOOP_944_10: for (int p = 0; p < 5;p++) {
+#pragma HLS unroll
+ VITIS_LOOP_946_11: for (int q = 0; q < 4; q++) {
+                window[p][q] = window[p][q+1];
+              }
+            }
+
+            VITIS_LOOP_951_12: for (int p = 0; p < 5; p++) {
+#pragma HLS unroll
+ window[p][4] = input[0][h + p][w + 5];
+            }
+
+
+
+
+
           }
         }
       }
@@ -27068,7 +27112,7 @@ void cnn(float input[1][228][228], float output[16][224][224],
     store_output_S0(output, voutput, i0);
   }
 }
-# 387 "cnn.cpp"
+# 994 "cnn.cpp"
 __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[3326976] __attribute__((align_value(alignof(float4)))) , float1 vweight[1638400] __attribute__((align_value(alignof(float1)))) ,
                 float16 voutput[802816] __attribute__((align_value(alignof(float16)))) ) {
 #pragma HLS aggregate variable = vinput
@@ -27079,7 +27123,7 @@ __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[33269
 
 #line 23 "/home/ubuntu/lab4/vitis.tcl"
 #pragma HLSDIRECTIVE TOP name=kernel_cnn
-# 388 "cnn.cpp"
+# 995 "cnn.cpp"
 
 
 
@@ -27105,17 +27149,17 @@ __attribute__((sdx_kernel("kernel_cnn", 0))) void kernel_cnn(float4 vinput[33269
 
 
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 1
-#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 1 dim = 2
+#pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 2
 #pragma HLS ARRAY_PARTITION variable = input cyclic factor = 5 dim = 3
 
-#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 1
+#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 16 dim = 1
 #pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 2
-#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 16 dim = 3
+#pragma HLS ARRAY_PARTITION variable = output cyclic factor = 1 dim = 3
 
-#pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 1
+#pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 16 dim = 1
 #pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 2
-#pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 3
-#pragma HLS ARRAY_PARTITION variable = weight cyclic factor = 1 dim = 4
+#pragma HLS ARRAY_PARTITION variable = weight complete dim = 3
+#pragma HLS ARRAY_PARTITION variable = weight complete dim = 4
 
 
 

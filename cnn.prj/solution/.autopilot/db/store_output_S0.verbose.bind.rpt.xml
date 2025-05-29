@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'store_output_S0'" level="0">
-<item name = "Date">Tue May 27 03:08:10 2025
+<item name = "Date">Thu May 29 01:14:15 2025
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">cnn.prj</item>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">50252, 50252, 0.201 ms, 0.201 ms, 50252, 50252, no</column>
+<column name="">401484, 401484, 1.606 ms, 1.606 ms, 401484, 401484, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_store_output_S0_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_241_2_VITIS_LOOP_242_3_fu_100">store_output_S0_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_241_2_VITIS_LOOP_242_3, 50180, 50180, 0.201 ms, 0.201 ms, 50180, 50180, no</column>
+<column name="grp_store_output_S0_Pipeline_VITIS_LOOP_804_1_VITIS_LOOP_805_2_VITIS_LOOP_806_3_fu_100">store_output_S0_Pipeline_VITIS_LOOP_804_1_VITIS_LOOP_805_2_VITIS_LOOP_806_3, 401412, 401412, 1.606 ms, 1.606 ms, 401412, 401412, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

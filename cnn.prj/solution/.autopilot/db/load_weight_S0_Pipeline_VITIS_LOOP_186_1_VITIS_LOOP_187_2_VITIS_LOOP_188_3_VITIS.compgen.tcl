@@ -12,16 +12,472 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     id 3 \
-    name weight \
+    name weight_0_0 \
     reset_level 1 \
     sync_rst true \
     dir O \
-    corename weight \
+    corename weight_0_0 \
     op interface \
-    ports { weight_address0 { O 17 vector } weight_ce0 { O 1 bit } weight_we0 { O 1 bit } weight_d0 { O 32 vector } } \
+    ports { weight_0_0_address0 { O 12 vector } weight_0_0_ce0 { O 1 bit } weight_0_0_we0 { O 1 bit } weight_0_0_d0 { O 32 vector } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_0_0'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 4 \
+    name weight_0_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_0_1 \
+    op interface \
+    ports { weight_0_1_address0 { O 12 vector } weight_0_1_ce0 { O 1 bit } weight_0_1_we0 { O 1 bit } weight_0_1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_0_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 5 \
+    name weight_0_2 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_0_2 \
+    op interface \
+    ports { weight_0_2_address0 { O 12 vector } weight_0_2_ce0 { O 1 bit } weight_0_2_we0 { O 1 bit } weight_0_2_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_0_2'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 6 \
+    name weight_0_3 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_0_3 \
+    op interface \
+    ports { weight_0_3_address0 { O 12 vector } weight_0_3_ce0 { O 1 bit } weight_0_3_we0 { O 1 bit } weight_0_3_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_0_3'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 7 \
+    name weight_0_4 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_0_4 \
+    op interface \
+    ports { weight_0_4_address0 { O 12 vector } weight_0_4_ce0 { O 1 bit } weight_0_4_we0 { O 1 bit } weight_0_4_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_0_4'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 8 \
+    name weight_1_0 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_1_0 \
+    op interface \
+    ports { weight_1_0_address0 { O 12 vector } weight_1_0_ce0 { O 1 bit } weight_1_0_we0 { O 1 bit } weight_1_0_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_1_0'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 9 \
+    name weight_1_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_1_1 \
+    op interface \
+    ports { weight_1_1_address0 { O 12 vector } weight_1_1_ce0 { O 1 bit } weight_1_1_we0 { O 1 bit } weight_1_1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_1_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 10 \
+    name weight_1_2 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_1_2 \
+    op interface \
+    ports { weight_1_2_address0 { O 12 vector } weight_1_2_ce0 { O 1 bit } weight_1_2_we0 { O 1 bit } weight_1_2_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_1_2'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 11 \
+    name weight_1_3 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_1_3 \
+    op interface \
+    ports { weight_1_3_address0 { O 12 vector } weight_1_3_ce0 { O 1 bit } weight_1_3_we0 { O 1 bit } weight_1_3_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_1_3'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 12 \
+    name weight_1_4 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_1_4 \
+    op interface \
+    ports { weight_1_4_address0 { O 12 vector } weight_1_4_ce0 { O 1 bit } weight_1_4_we0 { O 1 bit } weight_1_4_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_1_4'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 13 \
+    name weight_2_0 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_2_0 \
+    op interface \
+    ports { weight_2_0_address0 { O 12 vector } weight_2_0_ce0 { O 1 bit } weight_2_0_we0 { O 1 bit } weight_2_0_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_2_0'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 14 \
+    name weight_2_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_2_1 \
+    op interface \
+    ports { weight_2_1_address0 { O 12 vector } weight_2_1_ce0 { O 1 bit } weight_2_1_we0 { O 1 bit } weight_2_1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_2_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 15 \
+    name weight_2_2 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_2_2 \
+    op interface \
+    ports { weight_2_2_address0 { O 12 vector } weight_2_2_ce0 { O 1 bit } weight_2_2_we0 { O 1 bit } weight_2_2_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_2_2'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 16 \
+    name weight_2_3 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_2_3 \
+    op interface \
+    ports { weight_2_3_address0 { O 12 vector } weight_2_3_ce0 { O 1 bit } weight_2_3_we0 { O 1 bit } weight_2_3_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_2_3'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 17 \
+    name weight_2_4 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_2_4 \
+    op interface \
+    ports { weight_2_4_address0 { O 12 vector } weight_2_4_ce0 { O 1 bit } weight_2_4_we0 { O 1 bit } weight_2_4_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_2_4'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 18 \
+    name weight_3_0 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_3_0 \
+    op interface \
+    ports { weight_3_0_address0 { O 12 vector } weight_3_0_ce0 { O 1 bit } weight_3_0_we0 { O 1 bit } weight_3_0_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_3_0'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 19 \
+    name weight_3_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_3_1 \
+    op interface \
+    ports { weight_3_1_address0 { O 12 vector } weight_3_1_ce0 { O 1 bit } weight_3_1_we0 { O 1 bit } weight_3_1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_3_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 20 \
+    name weight_3_2 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_3_2 \
+    op interface \
+    ports { weight_3_2_address0 { O 12 vector } weight_3_2_ce0 { O 1 bit } weight_3_2_we0 { O 1 bit } weight_3_2_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_3_2'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 21 \
+    name weight_3_3 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_3_3 \
+    op interface \
+    ports { weight_3_3_address0 { O 12 vector } weight_3_3_ce0 { O 1 bit } weight_3_3_we0 { O 1 bit } weight_3_3_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_3_3'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 22 \
+    name weight_3_4 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_3_4 \
+    op interface \
+    ports { weight_3_4_address0 { O 12 vector } weight_3_4_ce0 { O 1 bit } weight_3_4_we0 { O 1 bit } weight_3_4_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_3_4'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 23 \
+    name weight_4_0 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_4_0 \
+    op interface \
+    ports { weight_4_0_address0 { O 12 vector } weight_4_0_ce0 { O 1 bit } weight_4_0_we0 { O 1 bit } weight_4_0_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_4_0'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 24 \
+    name weight_4_1 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_4_1 \
+    op interface \
+    ports { weight_4_1_address0 { O 12 vector } weight_4_1_ce0 { O 1 bit } weight_4_1_we0 { O 1 bit } weight_4_1_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_4_1'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 25 \
+    name weight_4_2 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_4_2 \
+    op interface \
+    ports { weight_4_2_address0 { O 12 vector } weight_4_2_ce0 { O 1 bit } weight_4_2_we0 { O 1 bit } weight_4_2_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_4_2'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 26 \
+    name weight_4_3 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_4_3 \
+    op interface \
+    ports { weight_4_3_address0 { O 12 vector } weight_4_3_ce0 { O 1 bit } weight_4_3_we0 { O 1 bit } weight_4_3_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_4_3'"
+}
+}
+
+
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 27 \
+    name weight_4_4 \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename weight_4_4 \
+    op interface \
+    ports { weight_4_4_address0 { O 12 vector } weight_4_4_ce0 { O 1 bit } weight_4_4_we0 { O 1 bit } weight_4_4_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'weight_4_4'"
 }
 }
 

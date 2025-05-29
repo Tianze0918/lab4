@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'load_weight_S0'" level="0">
-<item name = "Date">Tue May 27 03:03:24 2025
+<item name = "Date">Thu May 29 01:14:07 2025
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">cnn.prj</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_load_weight_S0_Pipeline_VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3_VITIS_fu_67">load_weight_S0_Pipeline_VITIS_LOOP_186_1_VITIS_LOOP_187_2_VITIS_LOOP_188_3_VITIS, 102403, 102403, 0.410 ms, 0.410 ms, 102403, 102403, no</column>
+<column name="grp_load_weight_S0_Pipeline_VITIS_LOOP_750_1_VITIS_LOOP_751_2_VITIS_LOOP_752_3_VITIS_fu_865">load_weight_S0_Pipeline_VITIS_LOOP_750_1_VITIS_LOOP_751_2_VITIS_LOOP_752_3_VITIS, 102403, 102403, 0.410 ms, 0.410 ms, 102403, 102403, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

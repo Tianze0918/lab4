@@ -9,7 +9,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1 is
+entity kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0 is
 port (
     clk: in  std_logic;
     rst: in  std_logic;
@@ -21,7 +21,7 @@ port (
 
 end entity;
 
-architecture behav of kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1 is
+architecture behav of kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0 is
     signal b       : signed(18-1 downto 0);
     signal a       : signed(27-1 downto 0);
     signal d       : signed(27-1 downto 0);
@@ -75,7 +75,7 @@ entity kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1 is
 end entity;
 
 architecture arch of kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1 is
-    component kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1 is
+    component kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0 is
         port (
             clk : IN STD_LOGIC;
             rst : IN STD_LOGIC;
@@ -89,7 +89,7 @@ architecture arch of kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1 is
 
 
 begin
-    kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1_U :  component kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_1
+    kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0_U :  component kernel_cnn_am_addmul_13ns_9ns_5ns_19_4_1_DSP48_0
     port map (
         clk => clk,
         rst => reset,

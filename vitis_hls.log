@@ -8,7 +8,7 @@
 
 source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
 INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
-INFO: [HLS 200-10] For user 'ubuntu' on host 'ip-172-31-28-161.ec2.internal' (Linux_x86_64 version 5.19.0-1029-aws) on Tue May 27 18:32:01 UTC 2025
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ip-172-31-28-161.ec2.internal' (Linux_x86_64 version 5.19.0-1029-aws) on Thu May 29 01:27:19 UTC 2025
 INFO: [HLS 200-10] On os Ubuntu 22.04.2 LTS
 INFO: [HLS 200-10] In directory '/home/ubuntu/lab4'
 INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
@@ -62,8 +62,17 @@ INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signed
 INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
 INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 294.309 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 294.309 MB.
 INFO: [HLS 200-10] Analyzing design file 'cnn.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.55 seconds. CPU system time: 0.62 seconds. Elapsed time: 5.17 seconds; current allocated memory: 296.047 MB.
-INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
-INFO: [HLS 200-1995] There were 1,097 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/ubuntu/lab4/cnn.prj/solution/syn/report/csynth_design_size.rpt
+ERROR: [HLS 207-5519] Variable length array is not supported (cnn.cpp:870:38)
+ERROR: [HLS 207-5519] Variable length array is not supported (cnn.cpp:871:38)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4.65 seconds. CPU system time: 0.61 seconds. Elapsed time: 5.27 seconds; current allocated memory: 1.797 MB.
+Compilation of the preprocessed source 'cnn' failed
+    while executing
+"source vitis.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 6.9 seconds. Total CPU system time: 0.87 seconds. Total elapsed time: 7.51 seconds; peak allocated memory: 296.105 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Thu May 29 01:27:26 2025...

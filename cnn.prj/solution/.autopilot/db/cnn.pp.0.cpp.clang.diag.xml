@@ -425,7 +425,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>54</integer>
+      <integer>618</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -441,7 +441,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>70</integer>
+      <integer>634</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -457,7 +457,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>109</integer>
+      <integer>673</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -473,7 +473,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>125</integer>
+      <integer>689</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -489,7 +489,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>176</integer>
+      <integer>740</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -505,7 +505,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>195</integer>
+      <integer>759</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -521,7 +521,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>232</integer>
+      <integer>796</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -537,7 +537,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>248</integer>
+      <integer>812</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -553,11 +553,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>332</integer>
+      <integer>870</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=factor=16_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=0_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -569,11 +569,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>333</integer>
+      <integer>871</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=variable=window complete dim=1_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -585,11 +585,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>338</integer>
+      <integer>919</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=factor=5_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -601,11 +601,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>341</integer>
+      <integer>922</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=factor=5_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -617,7 +617,67 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>389</integer>
+      <integer>945</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>cnn.cpp</string>
+      <key>line</key>
+      <integer>952</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cnn_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>cnn.cpp</string>
+      <key>line</key>
+      <integer>870</integer>
+      <key>column</key>
+      <integer>38</integer>
+      <key>message</key>
+      <string>Variable length array is not supported</string>
+      <key>ID</key>
+      <integer>5519</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>cnn.cpp</string>
+      <key>line</key>
+      <integer>871</integer>
+      <key>column</key>
+      <integer>38</integer>
+      <key>message</key>
+      <string>Variable length array is not supported</string>
+      <key>ID</key>
+      <integer>5519</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>cnn.cpp</string>
+      <key>line</key>
+      <integer>996</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -633,7 +693,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>391</integer>
+      <integer>998</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -649,7 +709,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>393</integer>
+      <integer>1000</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -681,7 +741,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>394</integer>
+      <integer>1001</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -697,7 +757,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>395</integer>
+      <integer>1002</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -713,7 +773,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>396</integer>
+      <integer>1003</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -729,7 +789,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>412</integer>
+      <integer>1019</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -745,11 +805,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>413</integer>
+      <integer>1020</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 1 dim = 2_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = input cyclic factor = 5 dim = 2_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -761,7 +821,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>414</integer>
+      <integer>1021</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -777,11 +837,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>416</integer>
+      <integer>1023</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 16 dim = 1_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -793,7 +853,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>417</integer>
+      <integer>1024</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -809,11 +869,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>418</integer>
+      <integer>1025</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 16 dim = 3_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = output cyclic factor = 1 dim = 3_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -825,11 +885,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>420</integer>
+      <integer>1027</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 1 dim = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 16 dim = 1_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -841,7 +901,7 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>421</integer>
+      <integer>1028</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -857,11 +917,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>422</integer>
+      <integer>1029</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 1 dim = 3_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 3_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -873,11 +933,11 @@
       <key>filename</key>
       <string>cnn.cpp</string>
       <key>line</key>
-      <integer>423</integer>
+      <integer>1030</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight cyclic factor = 1 dim = 4_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_cnn_XLX_SEP_ PragmaOptions=variable = weight complete dim = 4_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
